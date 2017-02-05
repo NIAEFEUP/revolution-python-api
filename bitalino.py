@@ -513,7 +513,8 @@ if __name__ == '__main__':
     acqChannels = [0, 1, 2, 3, 4, 5]
     samplingRate = 1000
     nSamples = 10
-    digitalOutput = [1,1]
+    #turn on LED light
+    digitalOutput = [0, 0, 1, 0]
     
     # Connect to BITalino
     device = BITalino(macAddress)
