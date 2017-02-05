@@ -503,7 +503,10 @@ class BITalino(object):
         return data
             
 if __name__ == '__main__':
-    macAddress = "00:00:00:00:00:00"
+    if platform.system() in ['Windows', 'Linux']:
+        macAddress = "20:15:10:26:62:90"
+    else:
+        macAddress = "/dev/tty.bitalino-DevB"
     running_time = 5
     
     batteryThreshold = 30
