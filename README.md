@@ -1,6 +1,8 @@
 # BITalino (r)evolution Python API
 The BITalino (r)evolution Python API provides the needed tools to interact with BITalino (r)evolution using Python.
 
+Please take note this is a forked repository with a working example adapted to the BITalino kits from NIAEFEUP. The documentation is available [here](http://www.bitalino.com/pyAPI/). There is also software available from [BITalino](http://www.bitalino.com/index.php/software).
+
 ## Dependencies
 * [Python >2.7](https://www.python.org/downloads/) or [Anaconda](https://www.continuum.io/downloads)
 * [NumPy](https://pypi.python.org/pypi/numpy)
