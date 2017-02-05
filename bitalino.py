@@ -511,6 +511,14 @@ if __name__ == '__main__':
     
     batteryThreshold = 30
     acqChannels = [0, 1, 2, 3, 4, 5]
+    """
+        0 = EMG (Electromyography)
+        1 = EDA (Electrodermal activity)
+        2 = ECG (Electrocardiography)
+        3 = ACC (Accelerometer)
+        4 = LUX (https://en.wikipedia.org/wiki/Lux)
+        5 = LED (Light-emitting diode)
+    """
     samplingRate = 1000
     nSamples = 10
     #turn on LED light
